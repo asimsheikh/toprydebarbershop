@@ -73,7 +73,7 @@ const ContactLocation = () => {
             </section>
 
             <section class="sm:pl-5 w-full sm:w-3/4 h-1/2" id="map-location">
-                <Image src="/images/map.png" width={1902} height={719}/>
+                <Image src="/images/map.PNG" width={1902} height={719} alt="Map for business location"/>
             </section>
 
         </div>
