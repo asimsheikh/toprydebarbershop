@@ -8,5 +8,6 @@ module.exports = {
       sans: ['Montserrat', ...defaultTheme.fontFamily.sans]
     }
   },
+  colors: { secondary: '#2f2e2e6b' },
   plugins: []
 };

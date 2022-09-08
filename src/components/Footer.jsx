@@ -23,7 +23,7 @@ const Footer = () => {
                 <a href="https://www.facebook.com/toprydebarbershop/">
                     <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"
                     class="Icon-sc-c98r68-0 dSuruW Icon-sc-c98r68-1 kMfJYW">
-                    <g fill="none" fill-rule="evenodd">
+                    <g fill="none" fillRule="evenodd">
                         <path
                         d="M9.032 23L9 13H5V9h4V6.5C9 2.789 11.298 1 14.61 1c1.585 0 2.948.118 3.345.17v3.88H15.66c-1.8 0-2.15.856-2.15 2.112V9h5.241l-2 4h-3.24v10H9.032z"
                         fill="#DBDCE1"></path>
@@ -36,7 +36,7 @@ const Footer = () => {
                 <a href="https://twitter.com/toprydebarbershop">
                     <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"
                     class="Icon-sc-c98r68-0 dSuruW Icon-sc-c98r68-1 kMfJYW">
-                    <g fill="none" fill-rule="evenodd">
+                    <g fill="none" fillRule="evenodd">
                         <path
                         d="M24 4.6c-.9.4-1.8.7-2.8.8 1-.6 1.8-1.6 2.2-2.7-1 .6-2 1-3.1 1.2-.9-1-2.2-1.6-3.6-1.6-2.7 0-4.9 2.2-4.9 4.9 0 .4 0 .8.1 1.1-4.2-.2-7.8-2.2-10.2-5.2-.5.8-.7 1.6-.7 2.5 0 1.7.9 3.2 2.2 4.1-.8 0-1.6-.2-2.2-.6v.1c0 2.4 1.7 4.4 3.9 4.8-.4.1-.8.2-1.3.2-.3 0-.6 0-.9-.1.6 2 2.4 3.4 4.6 3.4-1.7 1.3-3.8 2.1-6.1 2.1-.4 0-.8 0-1.2-.1 2.2 1.4 4.8 2.2 7.5 2.2 9.1 0 14-7.5 14-14v-.6c1-.7 1.8-1.6 2.5-2.5z"
                         fill="#DBDCE1"></path>
@@ -49,7 +49,7 @@ const Footer = () => {
                 <a href="https://www.linkedin.com/toprydebarbershop">
                     <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"
                     class="Icon-sc-c98r68-0 dSuruW Icon-sc-c98r68-1 kMfJYW">
-                    <g fill="none" fill-rule="evenodd">
+                    <g fill="none" fillRule="evenodd">
                         <path
                         d="M23 0H1C.4 0 0 .4 0 1v22c0 .6.4 1 1 1h22c.6 0 1-.4 1-1V1c0-.6-.4-1-1-1zM7.1 20.5H3.6V9h3.6v11.5h-.1zM5.3 7.4c-1.1 0-2.1-.9-2.1-2.1 0-1.1.9-2.1 2.1-2.1 1.1 0 2.1.9 2.1 2.1 0 1.2-.9 2.1-2.1 2.1zm15.2 13.1h-3.6v-5.6c0-1.3 0-3-1.8-3-1.9 0-2.1 1.4-2.1 2.9v5.7H9.4V9h3.4v1.6c.5-.9 1.6-1.8 3.4-1.8 3.6 0 4.3 2.4 4.3 5.5v6.2z"
                         fill="#DBDCE1"></path>
