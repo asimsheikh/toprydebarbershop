@@ -74,6 +74,9 @@ const ContactLocation = () => {
 
             <section class="sm:pl-5 w-full sm:w-3/4 h-1/2" id="map-location">
                 <Image src="/images/map.PNG" width={1902} height={719} alt="Map for business location"/>
+                {/* <iframe loading="lazy"
+                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13259.268490600076!2d151.10357889235834!3d-33.81703216288531!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x516122b7b00dd9f2!2sTop+Ryde+Barber+Shop!5e0!3m2!1sen!2sau!4v1509249841346"
+                class="w-full h-80 filter grayscale" ></iframe> */}
             </section>
 
         </div>
