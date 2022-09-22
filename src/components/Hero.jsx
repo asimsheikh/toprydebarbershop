@@ -15,7 +15,7 @@ const Hero = () => {
                 </p>
                 <br />
 
-                <a class=" bg-white text-black hover:bg-black hover:text-white
+                <a class="font-extrabold bg-white text-black hover:bg-black hover:text-white
                     w-full sm:w-9/12 sm:mt-8 sm:py-5 sm:text-lg py-3 inline-block text-center " 
                     href="https://www.fresha.com/book-now/topryde-barber-shop-ubrwyxui/all-offer?pId=546039">
                 Book an appointment</a>
