@@ -5,13 +5,19 @@ const Services = () => {
                 Our services and prices
             </h1>
             <div class="service-list pt-10 sm:grid sm:grid-cols-2 sm:mx-32">
-                <div class="service-item py-5">
-                <h3 class="font-bold text-xl">Men's Style Cut - $35.00</h3>
-                <p class="">
-                    ed ut perspiciatis unde omnis iste natus error sit voluptatem
-                    accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
-                </p>
+
+                <div class="service-item py-5 p-4 mx-4">
+                    <div class="flex flex-row justify-between">
+                        <div class="font-bold text-xl">Men's Style Cut</div>
+                        <div class="font-bold text-3xl pr-8"><span class="text-xl">$</span> 35</div>
+                    </div>
+                    <p class="text-gray-300 mt-4">
+                        The cut begins with a consultation and analysis of the client’s 
+                        haircare, face shape, and style requirements to ensure excellent results.
+                        Finished off with a perfect razor cleanup around the neck.
+                    </p>
                 </div>
+
                 <div class="service-item py-5">
                 <h3 class="font-bold text-xl">Fades and Razor Fades - $40.00</h3>
                 <p class="hidden">
@@ -19,6 +25,7 @@ const Services = () => {
                     accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
                 </p>
                 </div>
+
                 <div class="service-item py-5">
                 <h3 class="font-bold text-xl">Hot Towel Shave - $25.00</h3>
                 <p class="hidden">
@@ -26,6 +33,7 @@ const Services = () => {
                     accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
                 </p>
                 </div>
+
                 <div class="service-item py-5">
                 <h3 class="font-bold text-xl">Beard Trims - $10.00</h3>
                 <p class="hidden">
@@ -33,6 +41,7 @@ const Services = () => {
                     accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
                 </p>
                 </div>
+
                 <div class="service-item py-5">
                 <h3 class="font-bold text-xl">Beard Trims and Lineups - $25.00</h3>
                 <p class="hidden">
@@ -40,6 +49,7 @@ const Services = () => {
                     accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
                 </p>
                 </div>
+
                 <div class="service-item py-5">
                 <h3 class="font-bold text-xl">
                     Discounted Pricing Men's Style Cut
