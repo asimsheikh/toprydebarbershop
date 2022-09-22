@@ -1,7 +1,7 @@
 const Services = () => {
   return (
             <section class="p-4 pt-10" id="services">
-            <h1 class="font-bold text-center text-2xl sm:text-4xl sm:pt-20">
+            <h1 class="font-extrabold text-center text-2xl sm:text-4xl sm:pt-20">
                 Our services and prices
             </h1>
             <div class="service-list pt-10 sm:grid sm:grid-cols-2 sm:mx-32">

@@ -3,7 +3,7 @@ import Image from 'next/image'
 const ContactLocation = () => {
   return (
     <>
-        <h1 class="font-bold text-center text-2xl pt-10 sm:text-4xl sm:pt-20">
+        <h1 class="font-extrabold text-center text-2xl pt-10 sm:text-4xl sm:pt-20">
             Our Contact details and location
         </h1>
 

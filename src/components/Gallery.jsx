@@ -3,7 +3,7 @@ import Image from 'next/image'
 const Gallery = () => {
   return (
     <section class="bg-secondary pt-10" id="gallery">
-        <h1 class="font-bold text-center text-2xl sm:text-4xl sm:pt-20">Our Work </h1>
+        <h1 class="font-extrabold text-center text-2xl sm:text-4xl sm:pt-20">Our Work </h1>
         <div class=" gallery-list image-visible grid grid-cols-2 sm:grid-cols-3 gap-3
                 sm:gap-10 pt-10 sm:mx-40 ">
 

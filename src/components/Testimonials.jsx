@@ -1,7 +1,7 @@
 const Testimonials = () => {
   return (
     <section class="p-4 pt-10 bg-secondary" id="testimonials">
-        <h1 class="font-bold text-center text-2xl sm:text-4xl">
+        <h1 class="font-extrabold text-center text-2xl sm:text-4xl">
             Our customers &#129505; our work
         </h1>
         <div class=" testimonial-list flex flex-col sm:flex-row sm:gap-10 sm:px-10 sm:items-end sm:mx-10 pt-5">
