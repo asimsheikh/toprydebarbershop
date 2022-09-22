@@ -24,7 +24,7 @@ const Services = () => {
                         <div class="font-bold text-3xl pr-8"><span class="text-xl">$</span> 40</div>
                     </div>
                     <p class="text-gray-300 mt-4">
-                        Out unique speciality cut, that we pride ourselves on. A deep consultation, 
+                        Our unique speciality cut, that we pride ourselves on. A deep consultation, 
                         to determine if a high, medium or low razor fade is what you want. Finished off
                         with the perfect blended taper and hair style.
                     </p>
