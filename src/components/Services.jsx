@@ -18,20 +18,29 @@ const Services = () => {
                     </p>
                 </div>
 
-                <div class="service-item py-5">
-                <h3 class="font-bold text-xl">Fades and Razor Fades - $40.00</h3>
-                <p class="hidden">
-                    ed ut perspiciatis unde omnis iste natus error sit voluptatem
-                    accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
-                </p>
+                <div class="service-item py-5 p-4 mx-4">
+                    <div class="flex flex-row justify-between">
+                        <div class="font-bold text-xl">Fades and Razor Fades</div>
+                        <div class="font-bold text-3xl pr-8"><span class="text-xl">$</span> 40</div>
+                    </div>
+                    <p class="text-gray-300 mt-4">
+                        Out unique speciality cut, that we pride ourselves on. A deep consultation, 
+                        to determine if a high, medium or low razor fade is what you want. Finished off
+                        with the perfect blended taper and hair style.
+                    </p>
                 </div>
 
-                <div class="service-item py-5">
-                <h3 class="font-bold text-xl">Hot Towel Shave - $25.00</h3>
-                <p class="hidden">
-                    ed ut perspiciatis unde omnis iste natus error sit voluptatem
-                    accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
-                </p>
+                <div class="service-item py-5 p-4 mx-4">
+                    <div class="flex flex-row justify-between">
+                        <div class="font-bold text-xl">Hot Towel Shave</div>
+                        <div class="font-bold text-3xl pr-8"><span class="text-xl">$</span> 25</div>
+                    </div>
+                    <p class="text-gray-300 mt-4">
+                    We consult and analyse on your existing routine. Your face is prepared 
+                    with pre shave oil and a hot towel treatment to prepare your skin.
+                    Followed by the application of shaving cream and a perfectly executed razor
+                    shave. 
+                    </p>
                 </div>
 
                 <div class="service-item py-5">
