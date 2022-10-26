@@ -15,7 +15,7 @@ const Temp = () => {
             <title>Top Ryde Barber Shop</title>
             <meta name="viewport" content="width=device-width, initial-scale=1" />
             <meta name="description"
-                content="We are a babershop with the best fades, haircuts, styles and trims in the Sydney. located in Top Ryde Sydney." />
+                content="We are a barber shop with the best fades, haircuts, styles and trims in the Sydney. located in Top Ryde Sydney." />
             <meta name="google-site-verification" content="U-qSmQqNPntzuM8OYh5w9BhNxojFoKpPGHLA9N9p9PQ" />
         </Head>
 
