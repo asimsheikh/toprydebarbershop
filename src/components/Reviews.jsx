@@ -14,7 +14,7 @@ const Reviews = () => {
                 alt="Google Logo" />
                 <div>
                     <p class="text-gray-400 text-lg pl-5"> 4.7 &#9733;&#9733;&#9733;&#9733;&#9733; </p>
-                    <p><span class="text-gray-400 text-sm pl-8">222 Reviews</span></p>
+                    <p><span class="text-gray-400 text-sm pl-8">219 Reviews</span></p>
                 </div>
             </div>
         </div>
