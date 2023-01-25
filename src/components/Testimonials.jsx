@@ -11,11 +11,13 @@ const Testimonials = () => {
                 </div>
 
                 <div class="w-11/12 testimonial-text">
-                    <p class="text-gray-300">
-                    Welcome to Top Ryde City Ladies & Gentleman. The place where
-                    this legendary barber is cutting and fading, while also
-                    perfecting the art of cutting hair right by TOWN. 5/5 stars
-                    </p>
+                    <blockquote>
+                        <p class="text-gray-300">
+                        Welcome to Top Ryde City Ladies & Gentleman. The place where
+                        this legendary barber is cutting and fading, while also
+                        perfecting the art of cutting hair right by TOWN. 5/5 stars
+                        </p>
+                    </blockquote>
                 </div>
 
                 <div class="w-full font-bold pl-10 pt-5">Tyler Skeen</div>
@@ -27,11 +29,13 @@ const Testimonials = () => {
                 </div>
 
                 <div class="w-11/12 testimonial-text">
-                    <p class="text-gray-300">
-                    I have been coming to Sam for just over 10 years. He is a
-                    gentleman and an absolute perfectionist ... a perfect haircut
-                    every time. I highly recommend Top Ryde Barber Shop
-                    </p>
+                    <blockquote>
+                        <p class="text-gray-300">
+                        I have been coming to Sam for just over 10 years. He is a
+                        gentleman and an absolute perfectionist ... a perfect haircut
+                        every time. I highly recommend Top Ryde Barber Shop
+                        </p>
+                    </blockquote>
                 </div>
 
                 <div class="w-full font-bold pl-10 pt-5">Matthew L</div>
@@ -43,11 +47,13 @@ const Testimonials = () => {
                 </div>
 
                 <div class="w-11/12 testimonial-text">
-                    <p class="text-gray-300">
-                    Sam is nice and kind .. Gives you the haircut you want and takes
-                    his time. He cuts it with care and love .. and tries to get to
-                    knows everyone who visits his shop.
-                    </p>
+                    <blockquote>
+                        <p class="text-gray-300">
+                        Sam is nice and kind .. Gives you the haircut you want and takes
+                        his time. He cuts it with care and love .. and tries to get to
+                        knows everyone who visits his shop.
+                        </p>
+                    </blockquote>
                 </div>
 
                 <div class="w-full font-bold pl-10 pt-5">Delmer Fernandez</div>
