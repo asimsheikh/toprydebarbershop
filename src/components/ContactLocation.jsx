@@ -63,13 +63,15 @@ const ContactLocation = () => {
             </section>
 
             <section class=" sm:pl-10 py-10 sm:py-2 text-lg w-full sm:w-1/2 text-gray-300 leading-loose " id="contact-details">
-                <p>4 Church Street</p>
-                <p>RYDE NSW 2112</p>
-                <p>Sydney Australia</p>
-                <br />
-                <p>Sam Sakar (Head Barber)</p>
-                <p>(02) 9809 4807</p>
-                <p>toprydebarbershop@gmail.com</p>
+                <address>
+                    <p>4 Church Street</p>
+                    <p>RYDE NSW 2112</p>
+                    <p>Sydney Australia</p>
+                    <br />
+                    <p>Sam Sakar (Head Barber)</p>
+                    <p>(02) 9809 4807</p>
+                    <p>toprydebarbershop@gmail.com</p>
+                </address>
             </section>
 
             <section class="sm:pl-5 w-full sm:w-3/4 h-1/2" id="map-location">
