@@ -20,8 +20,8 @@ const Home = () => {
             <meta name="google-site-verification" content="U-qSmQqNPntzuM8OYh5w9BhNxojFoKpPGHLA9N9p9PQ" />
         </Head>
 
-        <body class="bg-[#000000ad]">
-        <div class="container mx-auto text-white font-['Montserrat']">
+        <body className="bg-[#000000ad]">
+        <div className="container mx-auto text-white font-['Montserrat']">
             <NavBar />
             <Hero />
             <Reviews />
