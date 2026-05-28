@@ -25,23 +25,25 @@
             .site-shell { width: min(100%, 1280px); margin: 0 auto; padding: 0 1rem; color: #fff; font-family: "Montserrat", ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; }
             .site-nav { display: flex; flex-direction: column; justify-content: space-between; gap: 2.5rem; padding: 1rem; }
             .site-nav__brand { flex: 1 1 0%; font-weight: 800; }
+            .site-nav__brand-label { font-weight: 400; }
             .site-nav__link { display: none; font-weight: 600; }
 
             .hero { display: flex; flex-direction: column; padding: 1rem; }
             .hero__copy { padding-top: 3.5rem; }
             .hero__title { font-size: 2.25rem; line-height: 2.5rem; font-weight: 800; }
+            .hero__title + .hero__title { max-width: 11ch; }
             .hero__lead { color: #d1d5db; font-size: 1.125rem; line-height: 1.75rem; padding-top: 1.25rem; }
-            .cta-button { display: inline-block; width: 100%; padding: 0.75rem 0; background: #fff; color: #000; text-align: center; font-weight: 800; }
+            .cta-button { display: inline-block; width: 100%; max-width: 560px; padding: 0.75rem 0; background: #fff; color: #000; text-align: center; font-weight: 800; }
             .cta-button:hover { background: #000; color: #fff; }
             .type-xl { font-size: 1.25rem; line-height: 1.75rem; }
             .hero__image { display: none; }
 
             .reviews-section { padding: 2rem 0 1.5rem; }
-            .reviews-strip { display: flex; justify-content: center; padding: 1rem 0 1rem 7rem; }
-            .review-badge { display: flex; align-items: center; gap: 1rem; }
-            .review-badge__logo { width: 159px; height: 54px; }
-            .review-rating { color: #9ca3af; font-size: 1.125rem; padding-left: 1.25rem; }
-            .review-count { color: #9ca3af; font-size: 0.875rem; padding-left: 2rem; }
+            .reviews-strip { display: flex; justify-content: flex-start; padding: 1rem 0 1rem 4.5rem; }
+            .review-badge { display: flex; flex-direction: column; align-items: center; gap: 0.5rem; }
+            .review-badge__logo { width: 230px; height: auto; }
+            .review-rating { color: #9ca3af; font-size: 1.125rem; padding-left: 0; text-align: center; }
+            .review-count { color: #9ca3af; font-size: 0.875rem; padding-left: 0; text-align: center; }
 
             .testimonial-section, .gallery-section { background: #2f2e2e6b; }
             .testimonial-section { padding: 2.5rem 0 0; }
@@ -94,9 +96,12 @@
                 .site-nav { flex-direction: row; padding: 2rem; }
                 .site-nav__link { display: inline; }
                 .hero { flex-direction: row; }
-                .hero__copy { width: 50%; padding-top: 3.5rem; padding-left: 3.5rem; }
+                .hero__copy { width: 44%; padding-top: 5rem; padding-left: 2rem; }
                 .hero__image { display: block; width: 58.333333%; margin: 2.5rem; }
-                .reviews-strip { justify-content: flex-start; padding-left: 9rem; }
+                .hero__title { font-size: 3.25rem; line-height: 0.95; }
+                .hero__title + .hero__title { max-width: 10.5ch; }
+                .cta-button { width: 72%; }
+                .reviews-strip { justify-content: flex-start; padding-left: 4.5rem; }
                 .section-heading, .contact-heading { font-size: 2.25rem; line-height: 2.5rem; }
                 .section-heading--spaced, .contact-heading { padding-top: 5rem; }
                 .testimonial-list { flex-direction: row; align-items: flex-end; gap: 2.5rem; padding: 1.25rem 2.5rem 0; margin: 0 2.5rem; }
@@ -136,7 +141,7 @@
                     <nav class="site-nav">
                         <div class="site-nav__brand">
                             <span class="brand-mark">TOPRYDE</span>
-                            Barbershop
+                            <span class="site-nav__brand-label">Barbershop</span>
                         </div>
                         <div class="site-nav__link">
                             <a href="#testimonials">Testimonals</a>
@@ -151,7 +156,7 @@
                     <section class="hero" id="hero">
                         <div class="hero__copy">
                             <h1 class="hero__title">The Best Haircuts</h1>
-                            <h1 class="hero__title">Razor Fades, Trims &amp;Shaves </h1>
+                            <h1 class="hero__title">Razor Fades,<br/>Trims &amp;Shaves</h1>
                             <br/>
                             <p class="hero__lead">We are a group of professional barbers in Sydney that care about the craft of the perfect cut and fade. An institution that has been in the business for over 50 years</p>
                             <br/>
