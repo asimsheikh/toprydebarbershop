@@ -74,12 +74,16 @@
                 padding: 2.5rem 1rem 0;
                 overflow-x: auto;
                 scroll-snap-type: x mandatory;
+                scroll-behavior: smooth;
                 scroll-padding-left: 1rem;
                 -webkit-overflow-scrolling: touch;
                 overscroll-behavior-x: contain;
                 touch-action: pan-x pinch-zoom;
                 scrollbar-width: none;
+                cursor: grab;
+                user-select: none;
             }
+            .gallery-grid.is-dragging { cursor: grabbing; scroll-snap-type: none; }
             .gallery-grid::-webkit-scrollbar { display: none; }
             .gallery-item {
                 position: relative;
@@ -91,6 +95,7 @@
                 height: auto;
                 aspect-ratio: 1 / 1;
                 object-fit: cover;
+                pointer-events: none;
             }
 
             .contact-heading { padding-top: 2.5rem; font-size: 1.5rem; line-height: 2rem; font-weight: 800; text-align: center; }
@@ -343,7 +348,7 @@
                     </section>
                     <section class="gallery-section" id="gallery" style="content-visibility:auto;contain-intrinsic-size:1200px;">
                         <h1 class="section-heading section-heading--spaced">Our Work </h1>
-                        <div class="gallery-grid">
+                        <div class="gallery-grid" data-carousel>
                             <div class="gallery-item"><img alt="Fade haircut" src="images/fade_1_bw.webp" width="290" height="290" loading="lazy" decoding="async" style="display:block;width:100%;height:auto" /></div>
                             <div class="gallery-item"><img alt="Fade haircut" src="images/fade_2_bw.webp" width="290" height="290" loading="lazy" decoding="async" style="display:block;width:100%;height:auto" /></div>
                             <div class="gallery-item"><img alt="Fade haircut" src="images/fade_3_bw.webp" width="290" height="290" loading="lazy" decoding="async" style="display:block;width:100%;height:auto" /></div>
@@ -464,6 +469,54 @@
                         </div>
                     </footer>
                 </main>
+        <script>
+            (function () {
+                var carousel = document.querySelector("[data-carousel]");
+                if (!carousel) return;
+
+                var isPointerDown = false;
+                var startX = 0;
+                var startScrollLeft = 0;
+
+                function beginDrag(clientX) {
+                    isPointerDown = true;
+                    startX = clientX;
+                    startScrollLeft = carousel.scrollLeft;
+                    carousel.classList.add("is-dragging");
+                }
+
+                function updateDrag(clientX) {
+                    if (!isPointerDown) return;
+                    carousel.scrollLeft = startScrollLeft - (clientX - startX);
+                }
+
+                function endDrag() {
+                    if (!isPointerDown) return;
+                    isPointerDown = false;
+                    carousel.classList.remove("is-dragging");
+                }
+
+                carousel.addEventListener("pointerdown", function (event) {
+                    if (carousel.setPointerCapture) {
+                        carousel.setPointerCapture(event.pointerId);
+                    }
+                    beginDrag(event.clientX);
+                });
+
+                carousel.addEventListener("pointermove", function (event) {
+                    updateDrag(event.clientX);
+                });
+
+                carousel.addEventListener("pointerup", function (event) {
+                    if (carousel.releasePointerCapture) {
+                        carousel.releasePointerCapture(event.pointerId);
+                    }
+                    endDrag();
+                });
+                carousel.addEventListener("pointercancel", endDrag);
+                carousel.addEventListener("pointerleave", endDrag);
+            }());
+        </script>
     </body>
 </html>
 
