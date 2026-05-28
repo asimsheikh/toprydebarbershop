@@ -68,8 +68,28 @@
             .service-price .type-xl { font-size: 1.25rem; line-height: 1.75rem; }
             .service-description { margin-top: 1rem; }
 
-            .gallery-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 0.75rem; padding-top: 2.5rem; }
-            .gallery-item { position: relative; }
+            .gallery-grid {
+                display: flex;
+                gap: 1rem;
+                padding: 2.5rem 1rem 0;
+                overflow-x: auto;
+                scroll-snap-type: x mandatory;
+                scroll-padding-left: 1rem;
+                -webkit-overflow-scrolling: touch;
+                scrollbar-width: none;
+            }
+            .gallery-grid::-webkit-scrollbar { display: none; }
+            .gallery-item {
+                position: relative;
+                flex: 0 0 82%;
+                scroll-snap-align: start;
+            }
+            .gallery-item img {
+                width: 100%;
+                height: auto;
+                aspect-ratio: 1 / 1;
+                object-fit: cover;
+            }
 
             .contact-heading { padding-top: 2.5rem; font-size: 1.5rem; line-height: 2rem; font-weight: 800; text-align: center; }
             .contact-layout { display: flex; flex-wrap: wrap; align-items: flex-start; justify-content: center; padding: 3.5rem 1rem 0; }
@@ -107,7 +127,12 @@
                 .testimonial-list { flex-direction: row; align-items: flex-end; gap: 2.5rem; padding: 1.25rem 2.5rem 0; margin: 0 2.5rem; }
                 .testimonial-card { padding-top: 0.5rem; }
                 .services-list { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); margin: 0 8rem; }
-                .gallery-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 2.5rem; margin: 0 10rem; }
+                .gallery-grid {
+                    gap: 1.5rem;
+                    padding-left: 2.5rem;
+                    padding-right: 2.5rem;
+                }
+                .gallery-item { flex-basis: 30%; max-width: 290px; }
                 .contact-layout { margin: 0 3rem; }
                 .hours-panel { width: 41.666667%; padding-left: 8rem; padding-bottom: 2.5rem; }
                 .contact-details { width: 50%; padding-left: 2.5rem; padding-top: 0.5rem; padding-bottom: 0.5rem; }
